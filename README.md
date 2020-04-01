@@ -4,38 +4,48 @@ Peer-graded Assignment: Capstone Project - The Battle of Neighborhoods
 Stella Metran
 IBM Data Science Professional
 
-Now that you have been equipped with the skills and the tools to use location data to explore a geographical location, over the course of two weeks, you will have the opportunity to be as creative as you want and come up with an idea to leverage the Foursquare location data to explore or compare neighborhoods or cities of your choice or to come up with a problem that you can use the Foursquare location data to solve.
-
-1) Introduction/Business Problem
-Clearly define a problem or an idea of your choice, where you would need to leverage the Foursquare location data to solve or execute. Remember that data science problems always target an audience and are meant to help a group of stakeholders solve a problem, so make sure that you explicitly describe your audience and why they would care about your problem.
-
-The idea of this study is to help people planning to open a new restaurant in Toronto to chose the right location by providing data about the income and population of each neighborhood as well as the competitors already present on the same regions.
-
-2) Downloading and Prepping Data
-Describe the data that you will be using to solve the problem or execute your idea. Remember that you will need to use the Foursquare location data to solve the problem or execute your idea. You can absolutely use other datasets in combination with the Foursquare location data. So make sure that you provide adequate explanation and discussion, with examples, of the data that you will be using, even if it is only Foursquare location data.
-
-To provide the stakeholders the necessary information I'll be combining Toronto's 2016 Census that contains Population, Average income per Neighborhood with Toronot's Neighborhoods shapefile and Foursquare API to collect competitors on the same neighborhoods.
-
-Toronto's Census data is publicly available at this website: https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/#8c732154-5012-9afe-d0cd-ba3ffc813d5a
-
-Toronto Neighborhoods' shapefile is publicly available at this website: https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/#a45bd45a-ede8-730e-1abc-93105b2c439f
-
-3) Methodology
-Methodology section which represents the main component of the report where you discuss and describe any exploratory data analysis that you did, any inferential statistical testing that you performed, and what machine learnings were used and why.
-
-For this report I used a few different maps that could help a new investor to decide the best neighborhood to open a restaurant in Toronto based on it's income, population and available competitors. In order to do that I've used the 2016 Census information combined with choropleth maps to visually display the wealthier and more populational neighborhoods and Foursquare data to display the current restaurants in each region.
-
-4) Results
-Results section where you discuss the results.
-
-Comparing the maps we can notice the majority of the restaurants grouped on main streets and on the south of the city, although some of the welthiest neighborhoods are up to the north. Also, the areas with a dense population don't reflect on the number of restaurants.
-
-5) Discussion
-Discussion section where you discuss any observations you noted and any recommendations you can make based on the results.
-
-When I first decided to create this study I was expecting to find clusters of restaurants in certain regions and the final result didn't meet that expectation.
-
-6) Conclusion
-Conclusion section where you conclude the report.
-
-This report may be helpful for someone planning on opening a restaurant in Toronto, by comparing the current offers and neighborhoods profiles, however it may not cover all variables such as access to public transportation or even the restaurants profiles, so it shall not be used as a single decidion making tool.
+Battle of Neighborhoods of -Port Elizabeth & Durban in South Africa  
+Capstone Project   
+1.  Introduction / Business Problem  
+ 
+- When thinking about relocating to a new city or country for work purposes or to start a new life, or 
+to go for a holiday destination people tend to research areas before moving. This research includes 
+population rate, average house price, school ratings, crime rates, weather conditions, recreational 
+facilities, holiday destinations-tourism, Carnivals and Sports events/activity.  etc. 
+ 
+- Based on the above, a search engine algorithm would be an efficient tool to use that will allow users 
+to enter cities and get the neighborhood name that best suits their lifestyle or living conditions.  - In this project, we will study in detail the area classification using foursquare data and machine learning segmentation and clustering. And segment areas of two cities based on the most common 
+places captured from Foursquare. 
+ 
+- This could be done as the aim of this Project using an algorithm (Using segmentation and clustering) 
+that will perform an extensive analysis on 1. The similarities and dissimilarities between neighborhoods in the two cities of the user’s 
+search criteria, and  2. Determine which neighborhoods best suits their lifestyle.  
+For this project, I will be developing a recommendation system using the Port Elizabeth  and Durban 
+cities in South Africa as my search criteria: 
+** Brief Information About: Port Elizabeth and Durban **  
+- Port Elizabeth  and Durban are two major cities in South Africa Both the cities become a center of attention for residential, holiday destinations-tourism, education, job employment, shopping and sports activity. Both cities are well known in South Africa and become the top choice for local and foreign communities. Also for the best holiday destinations in the world because of its Mediterranean climate, vibrant nightlife, Michelin Star restaurants, scenic coastal drives, staggering mountain landscape and friendly people; the latter holds the top spot as a family-friendly destination and for its wonderful beaches and water activities. -  
+Port Elizabeth 
+Port Elizabeth or The Bay[2] (Xhosa: iBhayi; Afrikaans: Die Baai [di ˈbɑːi]) is one of the major cities in 
+South Africa; it is situated in the Eastern Cape Province, 770 km (478 mi) east of Cape Town. The city, 
+often shortened to PE and nicknamed "The Windy City", stretches for 16 km along Algoa Bay, and is one 
+of the major seaports in South Africa. Port Elizabeth is the southernmost large city on the African 
+continent, just farther south than Cape Town. Port Elizabeth was founded as a town in 1820 to house 
+British settlers as a way of strengthening the border region between the Cape Colony and the Xhosa. It 
+now forms part of the Nelson Mandela Bay Metropolitan Municipality, which has a population of over 1.3 
+million.  
+(Source - https://en.wikipedia.org/wiki/Port_Elizabeth )  
+ 
+Durban 
+Durban (Zulu: eThekwini, from itheku meaning "bay/lagoon") is the third most populous city in South 
+Africa—after Johannesburg and Cape Town—and the largest city in the South African province of 
+KwaZulu-Natal. Located on the east coast of South Africa, Durban is famous for being the busiest port in 
+the country. It is also seen as one of the major Centres of tourism because of the city's warm subtropical 
+climate and extensive beaches. Durban forms part of the eThekwini Metropolitan Municipality, which 
+includes neighboring towns and has a population of about 3.44 million,[7] making the combined 
+municipality one of the biggest cities on the Indian Ocean coast of the African continent. It is also the 
+second most important manufacturing hub in South Africa after Johannesburg. In 2015, Durban was 
+recognized as one of the New7Wonders Cities (along with Vigan, Doha, La Paz, Havana, Beirut, and Kuala 
+Lumpur). 
+(Source - https://en.wikipedia.org/wiki/Durban ) 
+ **Target Audience**   
+Through this project we are expecting following people to benefit out of the findings.   1. People migrating city for work.   2. Business person looking for new location to start office etc.   3. Tourist.   4. Restaurants to finalized menu based on the type or people, their likings based on feedbacks etc.  5. Sports Events, Activities Organizers and many more.   
