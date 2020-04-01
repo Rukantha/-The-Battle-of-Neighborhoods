@@ -32,7 +32,7 @@ cities in South Africa as my search criteria:
 
 
 Port Elizabeth 
-Port Elizabeth or The Bay[2] (Xhosa: iBhayi; Afrikaans: Die Baai [di ˈbɑːi]) is one of the major cities in 
+Port Elizabeth or The Bay[2]  is one of the major cities in 
 South Africa; it is situated in the Eastern Cape Province, 770 km (478 mi) east of Cape Town. The city, 
 often shortened to PE and nicknamed "The Windy City", stretches for 16 km along Algoa Bay, and is one 
 of the major seaports in South Africa. Port Elizabeth is the southernmost large city on the African 
